@@ -16,7 +16,7 @@ The script has universal support for GitHub, GitLab, GitBucket, and Gitea-based 
 
 ## Installation
 
-Add the contents of [./header.tmpl](header.tmpl) to your Forgejo custom header template.
+Add the contents of [mirror-meta.js](mirror-meta.js) to your Forgejo custom header template.
 
 1. Use an editor to create or edit the `custom/templates/custom/header.tmpl` file
 2. Make sure to keep the code in the `<script>` tag
