@@ -14,6 +14,8 @@ This script fills those gaps by fetching live engagement data from the original 
 
 The script has universal support for GitHub, GitLab, GitBucket, and Gitea-based instances. It automatically identifies mirrors through the Forgejo API and adds a small snippet to your custom header template.
 
+> **Important Privacy Note:** While Forgejo syncs the code server-side, this script creates a client-side leak by forcing the visitor's browser to announce itself to GitHub's API just to update the "Star" count. This means the visitor's IP address and the repository they are viewing are visible to the upstream provider (e.g., Codeberg, GitHub). Please make sure to indicate this in your privacy policy if you have one.
+
 ## Installation
 
 Add the contents of [mirror-meta.js](mirror-meta.js) to your Forgejo custom header template.
