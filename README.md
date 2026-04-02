@@ -2,7 +2,7 @@
 
 A lightweight companion script for Forgejo that restores its' engagement metrics to mirrored repositories by pulling live Star and Fork counts from the original source.
 
-![Screenshot](./images/example.webp)
+![Screenshot](./images/example-magnified.webp)
 
 > Designed to work seamlessly with [our brand-inspired Melosso Forgejo Theme](https://github.com/melosso/forgejo-theme-melosso).
 
